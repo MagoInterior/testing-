@@ -107,7 +107,7 @@ module.exports = (m) => {
       if (!('onlyprefix' in setting)) setting.onlyprefix = '+'
       if (!('owners' in setting)) setting.owners = ['14036687826', '14036687826']
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
-      if (!('msg' in setting)) setting.msg = 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) Developped BY *ANDY* that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Create Your Free Panel Now* : https://sneakyhub.com/register?ref=761fSt2L\n◦ *MY NUMBER* : https://wa.me/14036687826\n\nIf you find an error or want to get premium plan pls contact andy.',
+      if (!('msg' in setting)) setting.msg = 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://api.andy.my.id\n◦ *Source* : https://github.com/andymrlit/IA-BOT\n\nIf you find an error or want to get premium plan contact andy.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
       if (!('cover' in setting)) setting.cover = 'https://i.imgur.com/WfuRnSr.jpeg'
       if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DCOiPr8BRJZ9N0M44Y6b9b'
@@ -118,7 +118,7 @@ module.exports = (m) => {
          debug: false,
          error: [],
          pluginDisable: [],
-         groupmode: false,
+         groupmode: true,
          sk_pack: 'Sticker',
          sk_author: '@andymrlit',
          self: false,
