@@ -56,7 +56,7 @@ module.exports = (m) => {
             activity: 0,
             autoread: true,
             antidelete: false,
-            antilink: true,
+            antilink: false,
             antivirtex: false,
             filter: false,
             left: false,
@@ -109,8 +109,8 @@ module.exports = (m) => {
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
       if (!('msg' in setting)) setting.msg = 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://api.andy.my.id\n◦ *Source* : https://github.com/andymrlit/IA-BOT\n\nIf you find an error or want to get premium plan contact andy.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/d826ed4128ba873017479.jpg'
-      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/Dqb7Z2G5mqnIPSc6xbVWuH'
+      if (!('cover' in setting)) setting.cover = 'https://i.imgur.com/WfuRnSr.jpeg'
+      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DCOiPr8BRJZ9N0M44Y6b9b'
    } else {
       global.db.setting = {
          autodownload: false,
@@ -132,8 +132,8 @@ module.exports = (m) => {
          lastReset: new Date * 1,
          msg: 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://api.andy.my.id\n◦ *Source* : https://github.com/andymrlit/IA-BOT\n\nIf you find an error or want to get premium plan pls contact andy.',
          menuStyle: 4,
-         cover: 'https://telegra.ph/file/d826ed4128ba873017479.jpg',
-         link: 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
+         cover: 'https://i.imgur.com/WfuRnSr.jpeg',
+         link: 'https://chat.whatsapp.com/DCOiPr8BRJZ9N0M44Y6b9b'
       }
    }
 }
